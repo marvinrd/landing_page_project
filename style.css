@@ -47,9 +47,12 @@ li>a {
 }
 
 .hero-container {
+    display: flex;
 }
 
 .hero-header {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-text {
@@ -59,21 +62,37 @@ button {
 }
 
 .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
 }
 
 .info-header {
 }
 
 .info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
 }
 
 .info-card {
+    display:flex;
+    flex-direction: column;
+    flex-basis: 100px;  
+    justify-content: flex-start;
+    align-items: center;    
+    
 }
 
 .info-img {
 }
 
 .info-text {
+    text-align: center;
 }
 
 .quote {
