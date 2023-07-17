@@ -42,6 +42,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    border-radius: 12px;
 }
 
 .right-links {
@@ -114,6 +115,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .info-card {
@@ -126,10 +128,15 @@ button {
 }
 
 .info-img {
+    width: 10em;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882f6;
 }
 
 .info-text {
     text-align: center;
+    
 }
 
 .quote {
@@ -142,7 +149,7 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: #101214;
 }
 
 .quote-name {
