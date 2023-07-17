@@ -13,23 +13,35 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px 50px;
+    font-size: 24px;
+    color: #f9faf8;
 
 }
 
-.top {
+.header, .hero-container {
     background-color: #1F2937;
     color: white;
 }
 
 .mid-1, .mid-3 {
     background-color: white;
+    padding: 3em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mid-2 {
     background-color: #e5e7eb;
+    padding: 6em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .right-links {
@@ -48,17 +60,39 @@ li>a {
 
 .hero-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    padding-bottom: 2em;
 }
 
 .hero-header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex-basis: 500px;
+    gap: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: lighter;
 }
 
 button {
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    border-style: none;
+
+    
 }
 
 .information {
@@ -71,6 +105,9 @@ button {
 }
 
 .info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .info-container {
@@ -96,22 +133,54 @@ button {
 }
 
 .quote {
+    flex-basis: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
 
 .quote-name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .contact {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    padding: 2em;
+    border-radius: 12px;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.contact-button {
+    border-color: white;
+    border-style: solid;
+    
+    
 }
 
 .contact-header {
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 .contact-text {
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .footer {
+    background-color: #1F2937;
+    padding: 2em;
+    color: #f9faf8;
+    text-align: center;
 }
